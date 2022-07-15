@@ -10,3 +10,5 @@ apt install nodejs -y
 npm i zx -g
 node -v
 npm -v
+git clone https://github.com/shutu777/seedbox.git && cd seedbox
+npm i
