@@ -7,8 +7,6 @@
 
 apt-get update && curl -sL https://deb.nodesource.com/setup_18.x | bash  - 
 apt install nodejs git -y
-npm i zx -g
 node -v
 npm -v
-git clone https://github.com/shutu777/seedbox.git && cd seedbox
-npm i
+git clone https://github.com/shutu777/seedbox.git && cd seedbox && npm i
