@@ -6,7 +6,7 @@
 # Description:          dd后续环境
 
 # 基础环境
-apt-get update && apt-get install curl nano vim lsof sudo bash-completion -y
+apt-get install curl nano vim lsof sudo bash-completion -y
 timedatectl set-timezone Asia/Shanghai
 
 # 命令补全

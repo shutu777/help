@@ -5,7 +5,10 @@
 # Date:                 2022-2-6
 # Description:          Google ZX
 
-apt-get update && apt-get install curl wget nodejs git -y && curl -sL https://deb.nodesource.com/setup_18.x | bash  - 
+apt-get update && apt-get install curl -y
+curl -sL https://deb.nodesource.com/setup_18.x | bash  - 
+apt-get install nodejs -y
 node -v
 npm -v
-git clone https://github.com/shutu777/seedbox.git && chmod -R 777 seedbox && cd seedbox && npm i
+npm i zx -g
+npm i cfonts -g
