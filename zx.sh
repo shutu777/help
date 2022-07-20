@@ -12,4 +12,4 @@ node -v
 npm -v
 npm i zx -g
 npm i cfonts -g
-npm i minimist -g
+npm i minimist
